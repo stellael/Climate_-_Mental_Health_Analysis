@@ -29,6 +29,12 @@ To ensure statistical rigor, the following methods were implemented:
 * **Vulnerable Groups:** Regression analysis identified **Genderfluid**, **Trans woman**, and **Non-binary** individuals as groups with significantly higher distress levels.
 * **Protective Factors:** Higher annual income ($100,000+) and older age (65+) were strong predictors of lower psychological distress.
 
+### Visual Analysis
+#### Psychological Distress Distribution (K6 Score)
+<img src="boxplots.png" width="700">
+#### Multiple Linear Regression Coefficients
+<img src="regression_results.png" width="700">
+
 ## Technologies Used
 * **Language:** Python
 * **Libraries:** Pandas, Statsmodels, Scipy, Seaborn, Matplotlib
@@ -37,3 +43,4 @@ To ensure statistical rigor, the following methods were implemented:
 1. Ensure Python is installed.
 2. Install dependencies: `pip install pandas seaborn statsmodels scipy matplotlib`
 3. Run the analysis script: `python CDMS_K6_Analysis_Code.py`
+
